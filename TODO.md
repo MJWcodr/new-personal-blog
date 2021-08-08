@@ -5,6 +5,7 @@
 - [ ] Write Rondell or just center Posts
 - [ ] Tests
 - [ ] Create Contact page
+- [ ] add favicon
 
 ## Later
 - [ ] automatically output Images to perfect size (Article View)
