@@ -1,0 +1,20 @@
+{
+    "color": {
+        "primary":"#2A9D8F",
+        "black": "#303030",
+        "gray":"#424242",
+        "white":"#FAFAFA"
+    },
+    "layout": {
+       "shadows": {
+            "mid":"0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)",
+            "large":"0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23)"
+       },
+       "spacing": {
+           "sm": "10px"
+       },
+       "screen-sizes": {
+           "phone":"415px"
+       }
+    }
+}

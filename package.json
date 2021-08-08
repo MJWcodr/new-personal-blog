@@ -1,0 +1,55 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@mantine/core": "^2.2.1",
+    "@mantine/dates": "^2.2.1",
+    "@mantine/hooks": "^2.2.1",
+    "@mantine/notifications": "^2.2.1",
+    "@mantine/prism": "^2.2.1",
+    "@material-ui/core": "^4.12.3",
+    "@radix-ui/react-icons": "^1.0.3",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "dayjs": "^1.10.6",
+    "node-sass-json-importer": "^4.3.0",
+    "prism-react-renderer": "^1.2.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-jss": "^10.7.1",
+    "react-multi-carousel": "^2.6.3",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.3",
+    "react-type-animation": "^1.1.2",
+    "sass": "^1.37.5",
+    "strapi-sdk-javascript": "^0.3.3",
+    "web-vitals": "^1.1.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

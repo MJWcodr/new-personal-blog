@@ -1,0 +1,46 @@
+@import './../../styles/index.scss';
+
+// info card
+.posts {
+    background-color: $green-bg;
+    min-height: 50vh;
+    
+}
+
+.waves {
+    width:"120vw";
+    
+    margin-right: -20px;
+    
+}
+.waves-top {
+    margin: -15px;
+}
+.waves-bottom {
+    margin-top: auto;
+    margin: -15px;
+    background-color: $black;
+}
+.carousel {
+    padding: $spacing-md;
+    margin:20px;
+    gap: 20px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap
+}
+
+.PostTitle {
+    padding: 0;
+    padding-left: $spacing-md;
+    font-size: $font-xl;
+    font-family: 'Open Sans SemiBold' ,$Open-Sans;
+    color: $white;
+    flex: grow;
+}
+.PostCarousel {
+    max-width: 1200px;
+    padding: 20px;
+    margin: auto;
+}

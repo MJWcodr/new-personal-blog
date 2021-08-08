@@ -1,0 +1,59 @@
+@import './../../../styles/index.scss';
+
+.ArticleCard {
+    position: absolute;
+    background-color: $gray;
+    top: -300px;
+    width: 80%;
+    margin: 10%;
+
+    border-radius: $border-big;
+    min-height: 80vh;
+    box-shadow: $shadow-lg;
+    padding-bottom: 30vh;
+}
+
+.HeadingText {
+    color: $white;
+    padding-left: $spacing-xl;
+    padding-right: $spacing-xl;
+    padding-top: $spacing-xl;
+}
+
+.TitleText {
+    margin-bottom: $spacing-sm;
+    padding: 0px;
+
+    font-family: 'Open Sans SemiBold ', $Open-Sans;
+}
+
+.HeadingSubtitle {
+    margin-top: $spacing-sm;
+    color: $white-2;
+
+    font-family: 'Open Sans SemiBold';
+    gap: $spacing-md;
+    display: flex;
+    align-content: center;
+}
+
+.TitleImage {
+    width: 100%;
+}
+.ArticleText {
+    padding: $spacing-xl;
+    color: $white;
+    margin: 0;
+}
+
+// remove if later 
+
+
+@media screen and (min-width: $desktop){
+        .ArticleCard {
+            width: 60%;
+            margin-top: 5%;
+            margin-left: 20%;
+            margin-right: 20%;
+        }
+    }

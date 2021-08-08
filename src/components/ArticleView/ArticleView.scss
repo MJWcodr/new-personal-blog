@@ -1,0 +1,29 @@
+@import './../../styles/index.scss';
+
+// info card
+
+.ArticleView {
+    position: absolute;
+    margin-top: 300px;
+    width: 100%;
+}
+
+.posts {
+    background-color: $green-bg;
+    min-height: 70vh;
+    width: 120%;
+}
+
+.waves {
+    width:"120vw";
+    margin-right: -20px;
+    
+}
+.waves-top {
+    margin: -15px;
+}
+.waves-bottom {
+    margin-top: auto;
+    margin: -15px;
+    background-color: $black;
+}
