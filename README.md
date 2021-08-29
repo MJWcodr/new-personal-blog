@@ -1,6 +1,6 @@
-# My own Weblog
+# This is WIP
 
 This is the template for my weblog. 
 It can be built as a docker conatainer.
 
-Still WIP.
+Still work in progress.
