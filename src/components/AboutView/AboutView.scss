@@ -1,0 +1,42 @@
+@import '../../styles/index.scss';
+
+.AboutView {
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    color: $white;
+
+    .AboutCard {
+        background-color: $gray;
+        width: clamp(200px,1200px, 80%);
+        max-width: 1200px;
+        min-height: 80vh;
+        padding: $spacing-xl;
+        border-radius: $border-big;
+        .HeadingWrapper {
+            display: flex;
+            align-items: center;
+            
+            .langSlider {
+            margin-left: auto;
+                a {
+                    color: $primary;
+                }
+            }
+    
+        }
+        .UsericonWrapper {
+            display: flex;
+            align-content: center;
+            justify-content: center;
+            width: 100%;
+            padding: $spacing-xl;
+            .Usericon {
+                height: clamp(10%, 50px);
+                border-radius: $border-full;
+            }
+        }
+    }
+
+   
+}

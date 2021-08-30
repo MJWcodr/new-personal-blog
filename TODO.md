@@ -12,3 +12,4 @@
 - [ ] write search algorithm 
 - [ ] add markdown and rich content support to content page of api
 - [ ] Lead to error page when loading shows problems
+- [ ] Add language slider

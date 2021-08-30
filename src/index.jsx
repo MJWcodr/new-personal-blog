@@ -5,6 +5,7 @@ import { BrowserRouter, Route } from 'react-router-dom'
 
 import Home from './Home';
 import Article from './Article'
+import About from './About'
 
 // eslint-disable-next-line 
 import reportWebVitals from './reportWebVitals';
@@ -13,6 +14,7 @@ import reportWebVitals from './reportWebVitals';
 ReactDOM.render(
   <BrowserRouter>
       <Route exact path="/" component={ Home }/>
+      <Route exact path="/about" component={ About }/>
       <Route path="/site/:id" component={ Article }/>
 
   </BrowserRouter>, document.getElementById('root')

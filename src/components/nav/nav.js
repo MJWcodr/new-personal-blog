@@ -24,9 +24,12 @@ class Navigation extends React.Component {
                           <ActionIcon radius="xl">
                                 <GearIcon color={styles.color.primary} style={{ width: 20, height: 20 }} />
                               </ActionIcon>
-                          <ActionIcon  radius="xl">
+                          <a href="/about">
+                            <ActionIcon  radius="xl">
                             <PersonIcon color={styles.color.primary} style={{ width: 20, height: 20 }} />
-                          </ActionIcon>
+                            </ActionIcon>
+                          </a>
+                          
                       </div>
                       <Input icon={<MagnifyingGlassIcon/>} className="searchbar"/>
                 </Group>
